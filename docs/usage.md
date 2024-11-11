@@ -14,6 +14,7 @@ The **FortiAI** solution pack offers a variety of functions through its **AI Ass
 - **Enrich Indicator**: Fetch, get, or retrieve the latest reputation of an indicator.
 - **Escalate To Incident**: Escalate, elevate, or promote the alert to an incident.
 - **Setup War Room**: Establish, set up, initiate, or create a war room for an incident.
+- **Filter Records**: Filter records within the FortiSOAR module based on specific criteria or conditions.
 
 ## Generating Playbooks
 
@@ -390,6 +391,24 @@ Setting up a war room is a critical process for managing significant incidents w
 
 >[!Note]
 >Ensure that all necessary stakeholders are included in the war room to facilitate comprehensive incident management and decision-making.
+
+## Filtering Records
+Filtering Records allows users to access specific records efficiently. 
+This functionality helps users locate and manage the required records across the system.
+
+### Use Case Example: Filtering records for alert module
+
+One common use case involves accessing specific records quickly. For instance, a security analyst needs to review the high severity open alerts. By issuing filtration commands, the analyst can access the required records without unnecessary delays.
+
+
+### Filtering Records Using FortiAI Assistant
+
+1. **Initiate Filter Record**:
+   - Issue a command to filter records. For example:
+
+    > *Give me high severity open alerts*
+
+   - The assistant filters the records for you. The response contains a hyperlink to the said records. Users can refer to previous conversations and navigate to the records using these links.
 
 ## Building Response Plans
 
